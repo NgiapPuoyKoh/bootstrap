@@ -8,13 +8,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </.bootstrap -->
 	<title>Wishky Drop | Taste a new wiskey every month</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">   
+    <div class="container-fluid navalert-container">
+    <nav class="navbar navbar-dark navbar-expand-sm">   
         <a href="/" class="navbar-brand">Whiskey Drop</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,29 +46,42 @@
             <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
             <a href="/login">Sign In/Sign Up</a>
         </div>
-
     </nav>
-	<article class="container mt-3">
+    </div>
+
+    <!-- <div class="containter alert-container">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <strong>Sale Now On!</strong> We've got a sale on, Get a 12-month subscription for the price of 6! <a href="">See her for details!</a>
+            </div>S
+        </div>
+    </div> -->
+
+    <div class="containter-fluid callout-container">
 		<!-- Callout -->
+        <div class="opaque-overlay">&nbsp;</div>
  		<div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                         <s class="d-none d-sm-inline">€19.99 </s>
                         <span class="d-none d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                     <p class="text-muted">
-                        <small>Your must be over 18 to sign up to our service. Please, drink responsibily</small></p>
+                        <small>Your must be over 18 to sign up to our service. Please, drink responsibly</small></p>
                 </section>
             </div>
 		</div>
 		<!-- /.callout-->
-		<hr>
+	</div>
 
-		<!-- Quotes--->
-		<section class="quotes">
+
+	<!-- Quotes--->
+    <div class="containter quotes-container">
+    		<section class="quotes">
 			<div class="row">
                 <div class="col-12 my-5">
     				<h2 class="text-uppercase">Quotes:</h2>
@@ -88,8 +105,8 @@
                 </div>
 		    </div>
 		</section>
-		<!-- /.quotes--->
-		<hr>
+	</div>
+    <!-- /.quotes--->
 
 <!-- table>
 Bootstrap's core CSS has many other features we haven't mentioned. Let's make use of one and add a new section to our landing page.
@@ -98,6 +115,7 @@ This table should have two columns: "name" and "origin" (the country the whiskey
 </.table--->	
 
         <!-- Monthly Favorites--->
+    <div class="containter favorites-container">
 		<section class="favorites">
 			<div class="row">
                 <div class="col-12">
@@ -147,9 +165,10 @@ This table should have two columns: "name" and "origin" (the country the whiskey
 		    </div>
 		</section>
 		<!-- /.monthly favorites--->
-		<hr>
+	</div>
 
 		<!-- Features -->
+    <div class="containter features-container">
 		<section class="Features">
 			<div class="row">
                 <div class="col-12">
@@ -181,8 +200,8 @@ This table should have two columns: "name" and "origin" (the country the whiskey
                 </div>
 			</div>
 		</section>
+    </div>
 		<!-- /.features -->
-	</article>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
