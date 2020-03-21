@@ -74,7 +74,6 @@ body {
     padding-left: 0;
     padding-right: 0;
     z-index: 1;
-<<<<<<< HEAD
 }
 
 
@@ -83,12 +82,9 @@ body {
     border: 0;
     width: 100%;
     background-color: rgba(0,0,0,.25);
-=======
->>>>>>> 5b3ddd7e7605eb2027e8d4d36415f85a942cb7aa
 }
  
 
-<<<<<<< HEAD
 .navbar .navbar-toggler {
     border: 0;
 }
@@ -98,25 +94,6 @@ body {
 }
 
 .navbar .navbar-nav a {
-=======
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.25);
-
-}
-
-.navbar .navbar-toggler{
-    border: 0;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a{
->>>>>>> 5b3ddd7e7605eb2027e8d4d36415f85a942cb7aa
     font-weight: bold;
 }
 
@@ -159,17 +136,9 @@ body {
     border-color: #f05f40;
 }
 
-.btn--red:hover{
-}
-
-.btn--red:active{
-
-}
-
-.btn--red:focus{
-
-}
-
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus'
 .btn--red:active:focus{
     background-color: #df4929;
     border-color: #df4929;
